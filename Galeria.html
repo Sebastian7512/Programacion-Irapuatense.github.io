@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Mi Novia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 220px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Mi Novia</h1>
+    <div class="gallery">
+        <img src="Ella-1.jpg" alt="Foto de mi novia 1">
+        <img src="Ella-2.jpg" alt="Foto de mi novia 2">
+        <img src="Ella-3.jpg" alt="Foto de mi novia 3">
+        <img src="Ella-4.jpg" alt="Foto de mi novia 4">
+    </div>
+</body>
+</html>

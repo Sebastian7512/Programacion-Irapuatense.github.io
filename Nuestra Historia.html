@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Historia</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f3e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #ff6b6b;
+            font-size: 1.8rem;
+        }
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .timeline {
+            display: flex;
+            flex-direction: column;
+        }
+        .timeline div {
+            position: relative;
+            margin: 10px 0;
+        }
+        .timeline div:before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #ff6b6b;
+            border-radius: 50%;
+            top: 0;
+            left: -30px;
+        }
+        .timeline div:after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background-color: #ff6b6b;
+            left: -25px;
+            top: 10px;
+        }
+        .quote {
+            font-style: italic;
+            color: #777;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff6b6b;
+            color: white;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nuestra Historia de Amor</h1>
+</header>
+
+<div class="container">
+    <!-- Sección de introducción -->
+    <div class="section">
+        <h2>Como nos conocimos</h2>
+        <p>Todo comenzo en la escuela, donde las miradas se cruzaron y el destino nos unio. Fue el <strong>03 de Marzo del 2024</strong>, un dia que ambos recordamos con carino. Desde ese momento, supe que algo especial estaba por comenzar.</p>
+        <p class="quote">"El destino nos trajo hasta aqui, y aqui es donde quiero quedarme contigo."</p>
+    </div>
+
+    <!-- Línea del tiempo de momentos importantes -->
+    <div class="section">
+        <h2>Nuestros Momentos Especiales</h2>
+        <div class="timeline">
+            <div>
+                <p><strong>Primer Dia de Novios</strong> - 09 de Mayo del 2024: El dia que decidi declararme para que sea mi novia.</p>
+            </div>
+            <div>
+                <p><strong>Primera vez que voy a su casa</strong> - 30 de Mayo del 2024: Fui a su casa gracias a que me invitaron a una comunion para convivir con su familia.</p>
+            </div>
+            <div>
+                <p><strong>Primer ida al cine</strong> - 14 Junio de 2024: Dia que fuimos juntos al cine a ver Intensamente 2.</p>
+            </div>
+            <div>
+                <p><strong>Fui a cueramaro</strong> - 7 de Septiembre del 2023: Fui a visitar a mi novia a Cueramaro y decidimos ir a comer y pasearnos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de reflexiones -->
+    <div class="section">
+        <h2>Lo que Significas para Mi</h2>
+        <p>Desde el primer dia, has sido mi companera, mi amiga y mi gran amor. Juntos hemos crecido, enfrentado desafios y celebrado nuestras victorias. Cada dia a tu lado me recuerda lo afortunado que soy de tenerte en mi vida.</p>
+        <p class="quote">"Eres mi pasado, mi presente y mi futuro."</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Nuestra Historia | Siempre Juntos</p>
+</footer>
+
+</body>
+</html>
